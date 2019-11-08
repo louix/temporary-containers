@@ -1,4 +1,8 @@
-class PageAction {
+export class PageAction {
+  private background: any;
+  private pref: any;
+  private storage: any;
+
   constructor(background) {
     this.background = background;
   }
@@ -49,5 +53,3 @@ class PageAction {
     }
   }
 }
-
-export default PageAction;
